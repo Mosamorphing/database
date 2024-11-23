@@ -7,10 +7,18 @@ const Dashboard = ({ students }) => {
 
   return (
     <div className="dashboard">
-      <h2>School Dashboard</h2>
-      <p>Total Students: {totalStudents}</p>
-      <p>Current Students: {current}</p>
-      <p>Graduates: {graduated}</p>
+      <div className="stat-card">
+        <h3 className="stat-title">Total Students</h3>
+        <p className="stat-number">{totalStudents}</p>
+      </div>
+      <div className="stat-card">
+        <h3 className="stat-title">Current Students</h3>
+        <p className="stat-number">{current}</p>
+      </div>
+      <div className="stat-card">
+        <h3 className="stat-title">Graduates</h3>
+        <p className="stat-number">{graduated}</p>
+      </div>
     </div>
   );
 };

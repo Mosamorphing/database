@@ -1,7 +1,7 @@
 export const studentsData = [
     { 
-        id: 1, 
-        name: "Ola Malomo", 
+        "id": 1, 
+        "name": "Ola Malomo", 
         "age": "17",
         "gender": "Female",
         "class": "A", 

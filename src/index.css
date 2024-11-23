@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 body {
   font-family: Arial, sans-serif;
@@ -12,6 +12,40 @@ h1 {
 h3 {
   margin-top: 20px;
 }
+
+
+/* Flex container for horizontal layout */
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adds space between the cards */
+}
+
+/* Simplified stat-card styling */
+.stat-card {
+  text-align: center;
+}
+
+/* Stat title */
+.stat-title {
+  font-size: 1.25rem;
+}
+
+/* Stat number */
+.stat-number {
+  font-size: 2rem;
+}
+
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 ul {
   list-style: none;
   padding: 0;
@@ -19,6 +53,7 @@ ul {
 li {
   margin: 5px 0;
 }
+
 select {
   margin-bottom: 20px;
   padding: 5px;
