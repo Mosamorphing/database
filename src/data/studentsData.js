@@ -4,7 +4,7 @@ export const studentsData = [
         name: "Ola Malomo", 
         "age": "17",
         "gender": "Female",
-        "class": "1A", 
+        "class": "A", 
         "year": 2024, 
         "gpa": 3.8,
         "subjects": ["Physics", "Chemistry", "Biology"],
@@ -19,7 +19,7 @@ export const studentsData = [
             "name": "Brit Spears",
             "age": "16",
             "gender": "Male",
-            "class": "1A",
+            "class": "A",
             "year": 2023,
             "gpa": 3.7,
             "subjects": ["Mathematics", "English", "History"],
@@ -35,7 +35,7 @@ export const studentsData = [
             "name": "Olamide Abegunde",
             "age": "15",
             "gender": "Female",
-            "class": "2A",
+            "class": "B",
             "year": 2024,
             "gpa": 3.9,
             "subjects": ["Geography", "French", "Art"],
@@ -51,7 +51,7 @@ export const studentsData = [
             "name": "Britany Cole",
             "age": "16",
             "gender": "Male",
-            "class": "2A",
+            "class": "B",
             "year": 2023,
             "gpa": 3.8,
             "subjects": ["Physics", "Chemistry", "Biology"],
@@ -67,7 +67,7 @@ export const studentsData = [
             "name": "Zebulun Tats",
             "age": "16",
             "gender": "Male",
-            "class": "3A",
+            "class": "C",
             "year": 2024,
             "gpa": 3.5,
             "subjects": ["Music", "Physical Education", "Computer Science"],
@@ -83,7 +83,7 @@ export const studentsData = [
             "name": "Cockney North",
             "age": "15",
             "gender": "Female",
-            "class": "3A",
+            "class": "C",
             "year": 2023,
             "gpa": 3.6,
             "subjects": ["Economics", "Political Science", "Psychology"],
@@ -92,6 +92,330 @@ export const studentsData = [
             "phone": "+1-555-3456"
             },
             "status": "graduated"
-            }
+            },
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "C",
+                "year": 2023,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "graduated"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "C",
+                "year": 2023,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "current"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "C",
+                "year": 2023,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "graduated"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "C",
+                "year": 2023,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "current"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "C",
+                "year": 2023,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "graduated"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "C",
+                "year": 2023,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "current"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "B",
+                "year": 2023,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "graduated"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "B",
+                "year": 2023,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "current"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "B",
+                "year": 2024,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "graduated"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "B",
+                "year": 2024,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "current"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "B",
+                "year": 2023,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "graduated"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "B",
+                "year": 2024,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "current"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "A",
+                "year": 2024,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "graduated"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "A",
+                "year": 2024,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "current"
+                }
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "A",
+                "year": 2024,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "graduated"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "A",
+                "year": 2024,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "current"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Cockney North",
+                "age": "15",
+                "gender": "Female",
+                "class": "A",
+                "year": 2024,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "graduated"
+                }
+
+                ,
+
+            {
+                "id": 7,
+                "name": "Monte Carlo",
+                "age": "15",
+                "gender": "Male",
+                "class": "A",
+                "year": 2024,
+                "gpa": 3.6,
+                "subjects": ["Economics", "Political Science", "Psychology"],
+                "contact": {
+                "email": "cockneynorth@gmail.com",
+                "phone": "+1-555-3456"
+                },
+                "status": "current"
+                }
+
+
+            
 ];
   

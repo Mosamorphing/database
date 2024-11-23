@@ -1,15 +1,19 @@
 import React from "react";
 
-const StudentList = ({ students }) => {
+const StudentDetails = ({ student }) => {
   return (
-    <ul>
-      {students.map((student) => (
-        <li key={student.id}>
-          {student.name} - {student.class} ({student.year})
-        </li>
-      ))}
-    </ul>
+    <div className="space-y-2">
+      <h3 className="text-xl font-bold">{student.name}</h3>
+      <p><strong>Age:</strong> {student.age}</p>
+      <p><strong>Gender:</strong> {student.gender}</p>
+      <p><strong>Class:</strong> {student.class}</p>
+      <p><strong>Graduation Year:</strong> {student.year}</p>
+      <p><strong>GPA:</strong> {student.gpa}</p>
+      <p><strong>Subjects:</strong> {student.subjects.join(", ")}</p>
+      <p><strong>Email:</strong> {student.contact.email}</p>
+      <p><strong>Phone:</strong> {student.contact.phone}</p>
+    </div>
   );
 };
 
-export default StudentList;
+export default StudentDetails;
