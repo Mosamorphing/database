@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { studentsData } from "./data/studentsData";
-import ClassList from "./components/ClassList";
+import StudentTable from "./components/StudentTable";
 import Filter from "./components/Filter";
 import Dashboard from "./components/Dashboard";
 
@@ -17,7 +17,7 @@ function App() {
       <h1>School Database</h1>
       <Dashboard students={studentsData} />
       <Filter years={years} selectedYear={selectedYear} setSelectedYear={setSelectedYear} />
-      <ClassList students={filteredStudents} />
+      <StudentTable students={filteredStudents} />
     </div>
   );
 }

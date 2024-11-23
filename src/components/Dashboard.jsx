@@ -6,10 +6,11 @@ const Dashboard = ({ students }) => {
   const graduated = totalStudents - current;
 
   return (
-    <div>
-      <h3>Total Students: {totalStudents}</h3>
-      <p>Current: {current}</p>
-      <p>Graduated: {graduated}</p>
+    <div className="dashboard">
+      <h2>School Dashboard</h2>
+      <p>Total Students: {totalStudents}</p>
+      <p>Current Students: {current}</p>
+      <p>Graduates: {graduated}</p>
     </div>
   );
 };
